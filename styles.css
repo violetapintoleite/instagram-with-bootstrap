@@ -20,26 +20,39 @@
   margin-bottom: 30px;
 }
 
-.gallery, .post{
+.gallery-icon, .post-icon{
     border: none;
-}
-
-.post{
     background: none;
+    
+}
+.gallery-icon:focus, .post-icon:focus{
+    background: rgb(237, 236, 236);
 }
 
-@media (max-width: 763px) {
-    .post {
-        background: #EDECEC;
-    }
-    .gallery {
-        background: #F8F9FA;
-    }
+
+
+.card{
+    max-width: 500px;
 }
+
+
+
+
 
 .comment{
     color: rgb(205, 203, 203);
 }
+
+.camera-icon, .location-pin-icon{
+    background-color: white;
+    border: 1px solid #ccc!important;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 
 
 
